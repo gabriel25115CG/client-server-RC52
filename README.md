@@ -13,24 +13,6 @@ Le serveur gère plusieurs clients simultanément grâce à la fonction `poll()`
 
 ---
 
-## Structure du Projet
-
-client-server-RC52/
-├── server/
-│   ├── server.c             # Code source du serveur principal
-│   ├── linked_list.h        # Gestion de la liste chaînée (utilisateurs/codes)
-│   ├── access_code.h        # Logique de vérification des codes
-│   ├── history.h            # Prototypes pour la gestion de l'historique
-│   ├── Makefile             # Compilation du serveur
-│   └── access_history.log   # Généré à l'exécution (journal des accès)
-├── client_locataire/
-│   ├── locataire.c          # Code source pour l'interface locataire
-│   └── Makefile             # Compilation du client locataire
-└── client_proprietaire/
-    ├── proprietaire.c       # Code source pour l'interface propriétaire
-    └── Makefile             # Compilation du client propriétaire 
-
-
 
 ## Fonctionnalités
 
