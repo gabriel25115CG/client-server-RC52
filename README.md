@@ -15,7 +15,6 @@ Le serveur gère plusieurs clients simultanément grâce à la fonction `poll()`
 
 ## Structure du Projet
 
-```plaintext
 client-server-RC52/
 ├── server/
 │   ├── server.c             # Code source du serveur principal
@@ -31,7 +30,7 @@ client-server-RC52/
     ├── proprietaire.c       # Code source pour l'interface propriétaire
     └── Makefile             # Compilation du client propriétaire 
 
----
+
 
 ## Fonctionnalités
 
